@@ -34,7 +34,7 @@ The model uses a Constellation schema design to handle many-to-many relationship
     ├── LICENSE.md
     ├── README.md
     ├── docs/
-    │   ├── dashboard_main.jpg
+    │   ├── dashboard_main.png
     │   └── data_model_schema.png
     ├── dax/
     │   └── core_measures.dax
@@ -42,9 +42,9 @@ The model uses a Constellation schema design to handle many-to-many relationship
         └── power_query_etl.m
 
 ### Visualizations
-* 🔗 **[Main Dashboard (docs/dashboard_main.jpg)](docs/dashboard_main.jpg):** Executive view showing creation vs. resolution rates, and donut charts grouping tickets by assignee and subdepartment.
+* 🔗 **[Main Dashboard (docs/dashboard_main.png)](docs/dashboard_main.png):** Executive view showing creation vs. resolution rates, and donut charts grouping tickets by assignee and subdepartment.
 
-![Main Dashboard](docs/dashboard_main.jpg)
+![Main Dashboard](docs/dashboard_main.png)
 
 * 🔗 **[Data Model Schema (docs/data_model_schema.png)](docs/data_model_schema.png):** Relational view showing the central Fact table connected to multiple dimension and bridge tables.
 
@@ -76,7 +76,7 @@ El modelo utiliza un diseño de esquema de Constelación para manejar las relaci
     ├── LICENSE.md
     ├── README.md
     ├── docs/
-    │   ├── dashboard_main.jpg
+    │   ├── dashboard_main.png
     │   └── data_model_schema.png
     ├── dax/
     │   └── core_measures.dax
@@ -84,9 +84,9 @@ El modelo utiliza un diseño de esquema de Constelación para manejar las relaci
         └── power_query_etl.m
 
 ### Visualizaciones
-* 🔗 **[Dashboard Principal (docs/dashboard_main.jpg)](docs/dashboard_main.jpg):** Vista ejecutiva que muestra las tasas de creación vs. resolución, y gráficos de anillo agrupando tickets por responsable y subdepartamento.
+* 🔗 **[Dashboard Principal (docs/dashboard_main.png)](docs/dashboard_main.png):** Vista ejecutiva que muestra las tasas de creación vs. resolución, y gráficos de anillo agrupando tickets por responsable y subdepartamento.
 
-![Dashboard Principal](docs/dashboard_main.jpg)
+![Dashboard Principal](docs/dashboard_main.png)
 
 * 🔗 **[Esquema del Modelo de Datos (docs/data_model_schema.png)](docs/data_model_schema.png):** Vista relacional que muestra la tabla de Hechos central conectada a múltiples tablas de dimensiones y puente.
 
