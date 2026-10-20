@@ -2,11 +2,12 @@
 
 [EN Read in English](#en-english-version) | [ES Leer en Español](#es-versión-en-español)
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power_Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-E5C100?style=for-the-badge&logo=powerbi&logoColor=black)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Power Query](https://img.shields.io/badge/Power_Query-ETL_Engine-0078D4?style=flat&logo=microsoft&logoColor=white)](https://learn.microsoft.com/power-query/)
+[![DAX](https://img.shields.io/badge/DAX-Advanced_Modeling-orange?style=flat)](https://learn.microsoft.com/dax/)
+[![Jira](https://img.shields.io/badge/Jira-Cloud_API-0052CC?style=flat&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
+[![Google Sheets](https://img.shields.io/badge/Google_Sheets-Staging_Layer-34A853?style=flat&logo=googlesheets&logoColor=white)](https://www.google.com/sheets/about/)
+[![License: Proprietary](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](LICENSE.md)
 
 ---
 
@@ -28,7 +29,7 @@ The Power BI data model handles unstructured data and categorizes imported ticke
 * **Data Cleansing:** The ETL process removes invisible web characters (`CHAR(160)`), standardizes spelling errors (e.g., replacing "Carrosuel" with "Carrousel"), and trims trailing spaces to prevent duplicate categorizations[cite: 7].
 
 ### Data Model
-The model uses a Constellation schema design to handle many-to-many relationships caused by Jira's multi-select fields[cite: 8]. The central fact table (`Tickets`) is linked to several bridge tables (e.g., `TicketsAreaPieza`, `TicketsFormato`, `TicketsVertical`) to allow accurate filtering without duplicating ticket counts in primary KPIs[cite: 8].
+The model uses a Constellation schema design to handle many-to-many relationships caused by Jira's multi-select fields. The central fact table (`Tickets`) is linked to several bridge tables (e.g., `TicketsAreaPieza`, `TicketsFormato`, `TicketsVertical`) to allow accurate filtering without duplicating ticket counts in primary KPIs.
 
 ### Project Structure
     ├── LICENSE.md
@@ -70,7 +71,7 @@ El modelo de datos maneja información no estructurada y categoriza los tickets 
 * **Limpieza de Datos:** El proceso ETL elimina caracteres web invisibles (`CHAR(160)`), estandariza errores ortográficos (ej. reemplazando "Carrosuel" por "Carrousel") y recorta espacios en blanco para evitar categorizaciones duplicadas[cite: 7].
 
 ### Modelo de Datos
-El modelo utiliza un diseño de esquema de Constelación para manejar las relaciones de muchos a muchos causadas por los campos de selección múltiple de Jira[cite: 8]. La tabla de hechos central (`Tickets`) está vinculada a varias tablas puente (ej. `TicketsAreaPieza`, `TicketsFormato`, `TicketsVertical`) para permitir un filtrado preciso sin duplicar el recuento de tickets en los KPIs principales[cite: 8].
+El modelo utiliza un diseño de esquema de Constelación para manejar las relaciones de muchos a muchos causadas por los campos de selección múltiple de Jira. La tabla de hechos central (`Tickets`) está vinculada a varias tablas puente (ej. `TicketsAreaPieza`, `TicketsFormato`, `TicketsVertical`) para permitir un filtrado preciso sin duplicar el recuento de tickets en los KPIs principales.
 
 ### Estructura del Proyecto
     ├── LICENSE.md
